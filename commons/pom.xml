@@ -33,9 +33,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/foundation-runtime/common/commons</connection>
-        <developerConnection>scm:git:git://github.com/foundation-runtime/common/commons</developerConnection>
-        <url>https://github.com/foundation-runtime/common/commons</url>
+        <connection>scm:git:git://github.com/foundation-runtime/common/tree/master/commons</connection>
+        <developerConnection>scm:git:git://github.com/foundation-runtime/common/tree/master/commons</developerConnection>
+        <url>https://github.com/foundation-runtime/common/tree/master/commons</url>
     </scm>
     <organization>
         <name>Cisco</name>

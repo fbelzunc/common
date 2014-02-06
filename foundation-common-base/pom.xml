@@ -13,7 +13,14 @@
     <name>foundation-common-base</name>
     <version>0.0.0-1-SNAPSHOT</version>
     <description>This project is...</description>
-    <url>https://github.com/foundation-runtime/common/foundation-common-base</url>
+    <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
     <issueManagement>
         <system>{put your issue tracking system here - i.e. CQ or JIRA}
         </system>
@@ -55,9 +62,9 @@
         <javaVersion>1.7</javaVersion>
     </properties>
     <scm>
-        <connection>scm:git:git://github.com/foundation-runtime/common/foundation-common-base</connection>
-        <developerConnection>scm:git:git://github.com/foundation-runtime/common/foundation-common-base</developerConnection>
-        <url>https://github.com/foundation-runtime/common/foundation-common-base</url>
+        <connection>scm:git:git://github.com/foundation-runtime/common/tree/master/foundation-common-base</connection>
+        <developerConnection>scm:git:git://github.com/foundation-runtime/common/tree/master/foundation-common-base</developerConnection>
+        <url>https://github.com/foundation-runtime/common/tree/master/foundation-common-base</url>
     </scm>
     <organization>
         <name>Cisco</name>
@@ -68,6 +75,11 @@
             <plugins/>
         </pluginManagement>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.0</version>
+            </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.0.2</version>
